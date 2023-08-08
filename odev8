@@ -1,0 +1,70 @@
+--1
+CREATE TABLE employee (  
+  id INTEGER,
+  name VARCHAR(50),
+  birthday DATE,
+  email VARCHAR(100));
+
+
+--2
+INSERT INTO  employee (id,name,birthday,email) values
+( 1,'Otho','2023-02-08','omeighan0@economist.com'),
+( 2,'Isahella','2022-10-21','igatsby1@ucla.edu'),
+( 3,'Terrel','2022-11-23','tpetchey2@bandcamp.com'),
+( 4,'Antonino','2023-04-10','asowley3@nifty.com'),
+( 5,'Hyacinthe','2023-01-22','hgramer4@house.gov'),
+( 6,'Ramsay','2023-01-31','rtidmas5@xinhuanet.com'),
+( 7,'Agosto','2022-10-15','aharlowe6@ted.com'),
+( 8,'Christine','2023-04-14','chagger7@seesaa.net'),
+( 9,'Ailey','2023-06-13','astell8@sina.com.cn'),
+( 10,'Bess','2023-02-04','bmills9@histats.com'),
+( 11,'Loree','2023-03-15','lbraggera@home.pl'),
+( 12,'Zacharie','2023-07-05','zcostainb@scribd.com'),
+( 13,'Georgi','2023-06-05','gwardc@msu.edu'),
+( 14,'Tami','2023-01-26','tvanderbaarend@pcworld.com'),
+( 15,'Stephanie','2023-01-01','sbaylisse@whitehouse.gov'),
+( 16,'Morlee','2022-09-15','migguldenf@microsoft.com'),
+( 17,'Cassie','2023-06-06','cdilletg@cargocollective.com'),
+( 18,'Deborah','2022-09-27','dhartingtonh@whitehouse.gov'),
+( 19,'Cornell','2022-08-21','coxtibyi@stanford.edu'),
+( 20,'Emili','2023-01-18','eshovlinj@europa.eu'),
+( 21,'Wilhelmine','2023-01-25','wmorrishk@patch.com'),
+( 22,'Gustav','2023-07-20','gcruxtonl@sina.com.cn'),
+( 23,'Forester','2023-01-18','fplosem@princeton.edu'),
+( 24,'Vally','2022-12-20','vpuddifern@slate.com'),
+( 25,'Nan','2023-02-23','nmackisono@tuttocitta.it'),
+( 26,'Ilsa','2023-01-07','ijellmanp@google.es'),
+( 27,'Phoebe','2023-04-10','pkitchingmanq@ocn.ne.jp'),
+( 28,'Mortimer','2023-07-30','mmccartneyr@w3.org'),
+( 29,'Jerri','2022-09-06','jthackers@house.gov'),
+( 30,'Ezequiel','2022-12-17','erigneyt@google.cn'),
+( 31,'Gena','2022-10-13','gcasinu@sina.com.cn'),
+( 32,'Constantia','2022-10-19','cdurrancev@yandex.ru'),
+( 33,'Heddie','2022-09-24','hritmeyerw@si.edu'),
+( 34,'Violet','2022-10-17','vpennax@kickstarter.com'),
+( 35,'Willetta','2023-05-17','wthomsony@ox.ac.uk'),
+( 36,'Krystal','2023-07-14','knowickz@usa.gov'),
+( 37,'Celisse','2022-12-21','cretchless10@clickbank.net'),
+( 38,'Sherm','2022-11-15','splows11@list-manage.com'),
+( 39,'Bat','2023-04-09','bwoan12@umich.edu'),
+( 40,'Charlotte','2022-12-21','cwaeland13@oakley.com'),
+( 41,'Nathanil','2023-03-16','nharmant14@google.cn'),
+( 42,'Thalia','2022-10-08','tscholz15@dion.ne.jp'),
+( 43,'Willie','2022-09-29','wfotitt16@boston.com'),
+( 44,'Jeannette','2023-01-10','jclingoe17@si.edu'),
+( 45,'Colet','2022-10-06','cleuty18@google.fr'),
+( 46,'Whitby','2022-09-25','wspehr19@google.pl'),
+( 47,'Jenni','2022-12-14','judale1a@gizmodo.com'),
+( 48,'Lanae','2023-03-23','lguslon1b@mapquest.com'),
+( 49,'Asia','2023-04-25','amaypes1c@telegraph.co.uk'),
+( 50,'Timoteo','2023-07-05','tphilipsen1d@odnoklassniki.ru');
+
+
+--3
+UPDATE employee
+SET name = 'SEZER'
+WHERE name='Jerri';
+
+--4
+DELETE FROM employee
+WHERE id = 31;
